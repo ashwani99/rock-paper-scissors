@@ -1,2 +1,2 @@
 # rock-paper-scissors
-A classic rock, paper and scissors game build using Javascript
+A classic rock, paper and scissors game built using Javascript
