@@ -1,0 +1,34 @@
+body {
+  background-color: #fff000;
+  text-align: center;
+  font-family: 'Cabin', monospace;
+}
+
+body h1 {
+  font-size: 42px;
+  text-shadow: 2px 2px #bfbfbf;
+}
+
+img {
+  margin: 10px 5px;
+  padding: 15px;
+
+  /*transition code*/
+  transition: all 0.75s ease-in-out;
+  -webkit-transition: all 0.75s ease-in-out;
+  -moz-trasition: all 0.75s ease-in-out;
+  -o-transition: all 0.75 ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.5);
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 500px;
+}
