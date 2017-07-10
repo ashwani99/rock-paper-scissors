@@ -5,7 +5,7 @@
 
 // Initially player has score zero
 var score = 0;
-var soundFile = "sound/beep.mp3";
+var soundFilePath = "sound/beep.mp3";
 var playerChoice;
 
 // Define three choices with a numeric equivalent.
@@ -36,7 +36,7 @@ var images = {
 };
 
 function playBeep() {
-  var beepAudio = new Audio("sound/beep.mp3");
+  var beepAudio = new Audio(soundFilePath);
   beepAudio.play();
 };
 
