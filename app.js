@@ -29,14 +29,14 @@ var images = {
       this.items[pos].id = pos;
       this.items[pos].addEventListener("click", function() {
         assignClick(this.id);
+        playBeep(); // Plays beep sound on click
       });
-      // items[pos].addEventListener("mouseover", playBeep); //TODO
     }
   }
 };
 
 function playBeep() {
-  var beepAudio = new Audio("beep.mp3");
+  var beepAudio = new Audio("sound/beep.mp3");
   beepAudio.play();
 };
 
