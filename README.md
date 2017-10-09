@@ -8,5 +8,8 @@ A classic rock, paper and scissors game built using JavaScript
 - Fork the repository
 - Open `index.html` using any browser (Preferebly Google Chrome)
 
+### Gameplay
+![screencast](assets/screencast.gif)
+
 ### License
 MIT. Check [LICENSE](https://github.com/ashwani99/rock-paper-scissors/blob/master/LICENSE) file for more information.
